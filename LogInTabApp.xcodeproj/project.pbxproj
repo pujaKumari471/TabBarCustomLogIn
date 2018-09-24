@@ -7,21 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09338B702156A82100D623C3 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 09338B6F2156A82000D623C3 /* awsconfiguration.json */; };
 		0954F7E82153BA7300E92CAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0954F7E72153BA7300E92CAD /* AppDelegate.swift */; };
-		0954F7EA2153BA7300E92CAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0954F7E92153BA7300E92CAD /* ViewController.swift */; };
 		0954F7ED2153BA7300E92CAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0954F7EB2153BA7300E92CAD /* Main.storyboard */; };
 		0954F7EF2153BA7400E92CAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0954F7EE2153BA7400E92CAD /* Assets.xcassets */; };
 		0954F7F22153BA7400E92CAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0954F7F02153BA7400E92CAD /* LaunchScreen.storyboard */; };
+		0954F7FA2153BAE700E92CAD /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0954F7F92153BAE700E92CAD /* LogInViewController.swift */; };
+		0954F7FC2153C9D000E92CAD /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0954F7FB2153C9D000E92CAD /* ProfileViewController.swift */; };
+		0954F7FE2153CA8E00E92CAD /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0954F7FD2153CA8E00E92CAD /* TabBarViewController.swift */; };
+		0954F8002153CB0700E92CAD /* Switcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0954F7FF2153CB0700E92CAD /* Switcher.swift */; };
+		BF9CCDF46B9D3890D46432F1 /* Pods_LogInTabApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C37AF29A2BC5E7F355C4163 /* Pods_LogInTabApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		09338B6F2156A82000D623C3 /* awsconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = awsconfiguration.json; sourceTree = SOURCE_ROOT; };
 		0954F7E42153BA7300E92CAD /* LogInTabApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LogInTabApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0954F7E72153BA7300E92CAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0954F7E92153BA7300E92CAD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0954F7EC2153BA7300E92CAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0954F7EE2153BA7400E92CAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0954F7F12153BA7400E92CAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0954F7F32153BA7400E92CAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0954F7F92153BAE700E92CAD /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		0954F7FB2153C9D000E92CAD /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		0954F7FD2153CA8E00E92CAD /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		0954F7FF2153CB0700E92CAD /* Switcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Switcher.swift; sourceTree = "<group>"; };
+		0C37AF29A2BC5E7F355C4163 /* Pods_LogInTabApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LogInTabApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		133353FCDAB16727DBDB3586 /* Pods-LogInTabApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LogInTabApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LogInTabApp/Pods-LogInTabApp.debug.xcconfig"; sourceTree = "<group>"; };
+		CA78CD901075EDB66976F1CB /* Pods-LogInTabApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LogInTabApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-LogInTabApp/Pods-LogInTabApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF9CCDF46B9D3890D46432F1 /* Pods_LogInTabApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +53,8 @@
 			children = (
 				0954F7E62153BA7300E92CAD /* LogInTabApp */,
 				0954F7E52153BA7300E92CAD /* Products */,
+				9EF94A402E8FE74888B79F0F /* Pods */,
+				263925598904EBFFB428CBC2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +70,34 @@
 			isa = PBXGroup;
 			children = (
 				0954F7E72153BA7300E92CAD /* AppDelegate.swift */,
-				0954F7E92153BA7300E92CAD /* ViewController.swift */,
 				0954F7EB2153BA7300E92CAD /* Main.storyboard */,
 				0954F7EE2153BA7400E92CAD /* Assets.xcassets */,
 				0954F7F02153BA7400E92CAD /* LaunchScreen.storyboard */,
 				0954F7F32153BA7400E92CAD /* Info.plist */,
+				0954F7F92153BAE700E92CAD /* LogInViewController.swift */,
+				0954F7FB2153C9D000E92CAD /* ProfileViewController.swift */,
+				0954F7FD2153CA8E00E92CAD /* TabBarViewController.swift */,
+				0954F7FF2153CB0700E92CAD /* Switcher.swift */,
+				09338B6F2156A82000D623C3 /* awsconfiguration.json */,
 			);
 			path = LogInTabApp;
+			sourceTree = "<group>";
+		};
+		263925598904EBFFB428CBC2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0C37AF29A2BC5E7F355C4163 /* Pods_LogInTabApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9EF94A402E8FE74888B79F0F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				133353FCDAB16727DBDB3586 /* Pods-LogInTabApp.debug.xcconfig */,
+				CA78CD901075EDB66976F1CB /* Pods-LogInTabApp.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +107,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0954F7F62153BA7400E92CAD /* Build configuration list for PBXNativeTarget "LogInTabApp" */;
 			buildPhases = (
+				CE4246CDE227AA6B322009C6 /* [CP] Check Pods Manifest.lock */,
 				0954F7E02153BA7300E92CAD /* Sources */,
 				0954F7E12153BA7300E92CAD /* Frameworks */,
 				0954F7E22153BA7300E92CAD /* Resources */,
+				B7942AD0D8F795D35D3C087C /* [CP] Embed Pods Frameworks */,
+				718EA26EC68332F40E7215C3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -122,6 +161,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09338B702156A82100D623C3 /* awsconfiguration.json in Resources */,
 				0954F7F22153BA7400E92CAD /* LaunchScreen.storyboard in Resources */,
 				0954F7EF2153BA7400E92CAD /* Assets.xcassets in Resources */,
 				0954F7ED2153BA7300E92CAD /* Main.storyboard in Resources */,
@@ -130,12 +170,79 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		718EA26EC68332F40E7215C3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LogInTabApp/Pods-LogInTabApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7942AD0D8F795D35D3C087C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LogInTabApp/Pods-LogInTabApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AWSAuthCore/AWSAuthCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCognitoIdentityProvider/AWSCognitoIdentityProvider.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCognitoIdentityProviderASF/AWSCognitoIdentityProviderASF.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCore/AWSCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSMobileClient/AWSMobileClient.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSUserPoolsSignIn/AWSUserPoolsSignIn.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAuthCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognitoIdentityProvider.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognitoIdentityProviderASF.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSMobileClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSUserPoolsSignIn.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LogInTabApp/Pods-LogInTabApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE4246CDE227AA6B322009C6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LogInTabApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0954F7E02153BA7300E92CAD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0954F7EA2153BA7300E92CAD /* ViewController.swift in Sources */,
+				0954F8002153CB0700E92CAD /* Switcher.swift in Sources */,
+				0954F7FE2153CA8E00E92CAD /* TabBarViewController.swift in Sources */,
+				0954F7FC2153C9D000E92CAD /* ProfileViewController.swift in Sources */,
+				0954F7FA2153BAE700E92CAD /* LogInViewController.swift in Sources */,
 				0954F7E82153BA7300E92CAD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,6 +387,7 @@
 		};
 		0954F7F72153BA7400E92CAD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 133353FCDAB16727DBDB3586 /* Pods-LogInTabApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +406,7 @@
 		};
 		0954F7F82153BA7400E92CAD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA78CD901075EDB66976F1CB /* Pods-LogInTabApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
